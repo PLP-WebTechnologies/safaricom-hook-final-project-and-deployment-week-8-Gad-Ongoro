@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GoDev - Home</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+  <!-- Header -->
+  <header class="bg-gray-900 text-yellow-400 py-4 sticky -top-2 z-50">
+    <nav class="container mx-auto flex justify-between items-center px-6">
+      <h1 class="text-3xl font-bold">Buy me coffee</h1>
+      <ul class="flex space-x-6 text-lg">
+        <li><a href="index.html" class="hover:text-yellow-300">Home</a></li>
+        <li><a href="about.html" class="hover:text-yellow-300">About</a></li>
+        <li><a href="contact.html" class="hover:text-yellow-300">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero text-center py-20 bg-gray-800 text-yellow-400">
+    <div class="container mx-auto px-6">
+      <h1 class="text-5xl font-extrabold">Welcome to My Website</h1>
+      <p class="mt-4 text-xl text-gray-200">Discover a world of amazing possibilities with us.</p>
+      <a href="about.html" class="mt-6 inline-block bg-yellow-400 text-gray-900 px-8 py-3 rounded-full font-bold hover:bg-yellow-300 transition duration-300">Learn More</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features py-16 px-8 bg-gray-100">
+    <div class="text-center">
+      <h2 class="text-4xl font-bold text-gray-900">Our Features</h2>
+      <p class="mt-2 text-gray-600">Explore our amazing services designed to elevate your experience.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+      <div class="p-6 bg-gray-900 text-yellow-400 shadow-md rounded-lg text-center">
+        <h3 class="text-2xl font-semibold">Fast & Secure</h3>
+        <p class="mt-2 text-gray-300">We ensure top-notch security and performance for our users.</p>
+      </div>
+      <div class="p-6 bg-gray-900 text-yellow-400 shadow-md rounded-lg text-center">
+        <h3 class="text-2xl font-semibold">User-Friendly</h3>
+        <p class="mt-2 text-gray-300">Our platform is designed with an intuitive interface for everyone.</p>
+      </div>
+      <div class="p-6 bg-gray-900 text-yellow-400 shadow-md rounded-lg text-center">
+        <h3 class="text-2xl font-semibold">24/7 Support</h3>
+        <p class="mt-2 text-gray-300">We are always here to assist you whenever you need help.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials py-16 px-8 bg-gray-200">
+    <div class="text-center">
+      <h2 class="text-4xl font-bold text-gray-900">What Our Users Say</h2>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+      <div class="p-6 bg-white rounded-lg shadow-md">
+        <p class="text-gray-700 italic">"This website has transformed my experience. I love the user-friendly interface!"</p>
+        <p class="mt-2 font-semibold text-yellow-600">- Jane Doe</p>
+      </div>
+      <div class="p-6 bg-white rounded-lg shadow-md">
+        <p class="text-gray-700 italic">"Great customer support and amazing features. Highly recommend!"</p>
+        <p class="mt-2 font-semibold text-yellow-600">- John Smith</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="cta py-16 bg-yellow-400 text-gray-900 text-center">
+    <h2 class="text-4xl font-bold">Join Us Today!</h2>
+    <p class="mt-4 text-lg">Be part of our growing community and experience excellence.</p>
+    <a href="contact.html" class="mt-6 inline-block bg-gray-900 text-yellow-400 px-8 py-3 rounded-full font-bold hover:bg-gray-700 transition duration-300">Get in Touch</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-yellow-400 text-center py-4">
+    <p>&copy; 2025 My Website. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
